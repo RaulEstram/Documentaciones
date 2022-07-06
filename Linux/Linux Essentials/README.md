@@ -1,0 +1,43 @@
+# Introduccion
+
+Estos apuntes tienen el fin de tener una documentacion de linux confiable y con mucha informacion desde cero, es por esto que se va a manejar mediante modulos.
+
+La informacion de esta documentacion ha sido recolectada de un curso de Linux de Cisco, es por esto que aqui solamente se encontrara lo que se considero como la informacion mas importante y de forma comprencible.
+
+## Indice
+* [1 Introduccion a Linux]()
+    * [1.1 La evolución del Linux y los sistemas operativos populares]()
+        * [1.1.1 Rol del Kernel]()
+        * [1.1.2 Las Aplicaciones]()
+        * [1.1.3 Rol de Código Abierto]()
+        * [1.1.4 Distribuciones de Linux]()
+            * [1.1.4.1 ¿Qué es un Comando?]()
+        * [1.1.5 Plataformas de Hardware]()
+    - [1.2 Elegir un Sistema Operativo]()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
