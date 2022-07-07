@@ -12,4 +12,6 @@ Esta es toda una Documentacion tipo Curso donde se veran muchas cosas de Django,
 * [1 Instalacion y conceptos basicos de Django]()
     * [1.1 ¿Que es Django?]()
     * [1.2 Entornos Virtuales con Python3]()
+    * [1.3 Crear un proyecto Web con Django]()
+        * [1.3.1 Archivos Creados]()
     

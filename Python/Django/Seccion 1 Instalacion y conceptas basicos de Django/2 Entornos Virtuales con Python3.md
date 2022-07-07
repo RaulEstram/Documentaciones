@@ -22,3 +22,7 @@ Un **entorno virtual** es un **entorno Python** en el que el intérprete Python,
 
 Los entornos virtuales nos ayuden a no tener conflictos con las versiones de los modulos.
 
+Para manejar nuestros projectos sera necesario utilizar un entorno virtual es por esto que algunas formas de utilizar o crear un entorno virtual es con:
+
+* [venv]()
+* [pipenv]
