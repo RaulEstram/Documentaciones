@@ -46,8 +46,8 @@ Pero el modelo solo define eso, el protocolo, no las aplicaciones en si. La apli
 La arquitectura Cliente/Servidor tambien se le conoce como Modelo cliente/servidor.
 
 Esta arquitectura es la mas comun en la mayoria de las aplicaciones y lo que define esta arquitectura son dos roles:
-* rol del cliente: el cliente es el usuario ser servicio.
-* rol del servidor: el servidor es el que presta u ofrece el servicio al cliente.
+* Rol del Cliente: el Cliente es el usuario del servicio.
+* Rol del Servidor: el Servidor es el que presta u ofrece el servicio al Cliente.
 
 ### Ejemplo
 
@@ -73,7 +73,7 @@ graph LR
   
   B -->|1 Peticion del cliente: GET home.html|A
   A -->|2 Respuesta del servidor: OK 200 home.html|B
-  A -->|3 Respuesta del servidor: Mas datos relativoa a home.html|B
+  A -->|3 Respuesta del servidor: Mas datos relativos a home.html|B
   A[Servidor Web Google / Servidor]
   B[Navegador web / Cliente]
 ```
@@ -88,3 +88,21 @@ graph LR
   B[Navegador web / Cliente]
 ```
 
+## Cabeceras
+
+las cabeceras que agrega la capa de aplicacion seria la cabecera del tipo de protocolo y de los datos
+
+```mermaid
+graph LR
+    A-->B
+    A-->C
+    B-->D
+    C-->E
+
+    A[Cabeceras]
+    B[Cabecera HTTP]
+    C[Datos]
+    D[OK]
+    E[Página Web]
+
+```
