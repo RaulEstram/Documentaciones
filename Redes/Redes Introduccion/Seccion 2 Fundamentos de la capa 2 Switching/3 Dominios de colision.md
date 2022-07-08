@@ -41,7 +41,7 @@ por lo tanto nos quedaremos con lo siguiente:
 
 Imaginemos que tenemos la siguiente red
 
-![Imagen2]()
+![Imagen2](https://github.com/RaulEstram/Documentaciones/blob/main/Redes/Redes%20Introduccion/Imagenes/Imagen2.png)
 
 Con una capacidad de 100Mbps FULL Duplex tanto del Switch como de los PCs
 
