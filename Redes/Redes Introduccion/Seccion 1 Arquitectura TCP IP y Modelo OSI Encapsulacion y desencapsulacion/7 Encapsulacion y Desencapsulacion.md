@@ -25,6 +25,10 @@ La encapsulacion es el proceso en el que teniendo unos datos recibidos por la ca
 
 Mientras que la Desencapsulacion es el proceso contrario al recibir unos datos de la capa inferior le quitamos la cabecera de nuestra capa y lo que queda lo pasamos a la capa superior 
 
+
+![Imagen1]()
+
+
 hay una terminologia especifica para hacer referencia al conjunto de informacion que recibe o genera cada capa:
 
 * **Segmento**: En la capa de transporte al conjunto de datos + cabecera se le llama **segmento**.
