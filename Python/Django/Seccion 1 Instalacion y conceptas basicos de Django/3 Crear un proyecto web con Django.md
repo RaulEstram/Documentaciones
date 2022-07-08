@@ -55,4 +55,4 @@ Una vez ejecutado el comando te marcara o te dira que se desplejo tu proyecto y 
 
 Entrando a esta direccion podremos ver nuestro proyecto desplejado o en ejecucion 
 
-![Imagen 2]()
+![Imagen 1](https://github.com/RaulEstram/Documentaciones/blob/main/Python/Django/Imagenes/Imagen1.png)
