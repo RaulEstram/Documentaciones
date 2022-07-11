@@ -40,6 +40,7 @@ La funcion de tomar la decicion de por donde enviar la informacion se llama **Ro
 
 La funcion de recibir y enviar un paquete de una interfaz se llama **Forwarding** que la traduccion es Reenvio.
 
+
 ```mermaid
 graph LR
     A-->B

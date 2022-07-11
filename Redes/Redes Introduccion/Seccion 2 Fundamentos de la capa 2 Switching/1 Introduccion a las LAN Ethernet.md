@@ -145,7 +145,7 @@ Podremos ver las direcciones MAC en cada apartado de **ether**.
 
 ---
 
-### Tipos de Direccions Adicionales
+### Tipos de Direcciones Adicionales
 
 Tenemos diferentes tipos de direccion que son:
 

@@ -1,4 +1,4 @@
-# Redes Half Duplex: HUBs, Colisiones y el Protocolo CSMACD
+# Redes Half Duplex: HUBs, Colisiones y el Protocolo CSMA/CD
 
 El equipo estrella que nos encontramos en la capa 2 es el **Switch** y nos dara las funciones de acceso a la red, es decir, es el equipo al que le conectaremos los **equipos finales** y otros equipos como Routers.
 
