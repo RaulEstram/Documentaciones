@@ -5,8 +5,8 @@ En la capa 3 o capa de Red tendremos Dispositivos como el Router y protocolos co
 El **Protocolo IP** es un protocolo de **capa 3** y como principales funcionamientos tenemos el **Direccionamiento y el Enrutamiento**.
 
 ```mermaid
-graph TP
-[
+graph TD
+
     A-->B
     A-->C
 
@@ -24,7 +24,7 @@ El **Direccionamiento o Enrutamiento** son conceptos **similares** que tenemos e
 
 ## Red en Capa 3
 
-En esta capa, la palabra **Red** puede tener 2 significados distintos, puede ser Red como conjuntos de equipos interconectados y Red como Red IP, una agrupacion de Direcciones IP.
+En esta capa, la palabra **Red** puede tener 2 significados distintos, puede ser Red como conjuntos de equipos interconectados y Red como Red IP que seria una agrupacion de Direcciones IP.
 
 Tomara un significado u otro dependiendo del contexto
 
