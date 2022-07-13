@@ -44,7 +44,7 @@ Los cables principales que se utilizan son:
 * RJ-45 a USB (actual)
 * USB a Micro USB (Actual)
 
-![Imagen 3]()
+![Imagen 3](https://github.com/RaulEstram/Documentaciones/blob/main/Redes/Redes%20Introduccion/Imagenes/Imagen3.png)
 
 Los metodos de acceso por SSH y Telnet se hacen utilizando la red TCP/IP, y esto tiene una gran ventaja ya que podemos estar lejos del equipo y aun asi gestionarlo, pero tiene la desventaja de que si la red se cea se pierde la gestion.
 
