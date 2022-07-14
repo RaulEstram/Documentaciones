@@ -49,3 +49,22 @@ Los cables principales que se utilizan son:
 Los metodos de acceso por SSH y Telnet se hacen utilizando la red TCP/IP, y esto tiene una gran ventaja ya que podemos estar lejos del equipo y aun asi gestionarlo, pero tiene la desventaja de que si la red se cea se pierde la gestion.
 
 > **Note**: Para evitar que se pierda la coneccion a distancia cuando se cae la red que es cuando principalemente necesitamos gestionar los equipos aparece la Gestion OOB (Out Of Band o Fuera de Banda) que consta de tener una red paralela a la red de datos o de produccion, y en esta red solamente tenemos la gestion de los equipos. Por lo tanto cuando se cae la Red de Produccion podemos acceder a los equipos usando la Red de Gestion.
+
+
+## Conectarnos al CLI
+
+ya sabemos que para conectarnos fisicamente necesitamos un equipo como lo puede ser una laptop y diferentes cables dependiendo del equipo.
+
+Una vez conectados fisicamente necesitamos un software especifico que nos permita la comunicacion y estos programas reciben el nombre de Emulador de Terminal.
+
+> Un ejemplo de un programa que nos permite realizar la comunicacion es putty o PuTTY. Que es de codigo abierto y gratis.
+
+Cuando queremos realizar la coneccion a equipos usando un Emulador de Terminal es necesario configurar el software, donde generalmente vamos a configurarlo con los siguientes parametros de consola:
+
+* Puerto al que nos conectamos
+* Velocidad: 9600 baud
+* Data bits: 8
+* Stop bits: 1
+* Parity: No
+* Flow control: No
+
