@@ -123,4 +123,4 @@ Tenemos los comandos:
 y el comando:
 * ```CTRL``` + ```z```
 
-![Imagen4]()
+![Imagen4](https://github.com/RaulEstram/Documentaciones/blob/main/Redes/Redes%20Introduccion/Imagenes/Imagen4.png)
