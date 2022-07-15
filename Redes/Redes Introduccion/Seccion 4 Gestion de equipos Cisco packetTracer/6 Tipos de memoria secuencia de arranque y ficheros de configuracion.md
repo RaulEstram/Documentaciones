@@ -91,3 +91,19 @@ graph LR
     F4[Buffers de paquetes]
 
 ```
+
+Cuando se prende un equipo de cisco se hacen los siguiente pasos:
+* Encendido del equipo - ejecucion del BootStrap
+* Busca la imagen del SO en Flash y cargarla en el RAM
+* Carga el fichero de configuracion en la RAM y ejecutarlo linea a linea.
+
+> **Note**: Para guardar la Running COnfiguration File en el Startup Configuration FIle podemos usar el comando ```copy running-config startup-config``` o ```write mem``` y estos comandos desde el modo privilegiado. Se recomiendo usar el comando de ```running-config startup-config```.
+
+> **Warning** En caso de quere eliminar Toda la configuracion podemos escribir alguno de los siguientes comandos:
+> * ```erase startup-config```
+> * ```erase nvram``` --> no funciona en PacketTracer
+> * ```write erase```
+> 
+
+
+

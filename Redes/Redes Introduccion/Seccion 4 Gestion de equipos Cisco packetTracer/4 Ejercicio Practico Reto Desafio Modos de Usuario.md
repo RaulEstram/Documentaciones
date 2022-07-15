@@ -16,7 +16,7 @@ las cosas que tenemos que realizar en este programa son:
 
 El resultado esperado es el siguiente:
 
-![Imagen13]()
+![Imagen13](https://github.com/RaulEstram/Documentaciones/blob/main/Redes/Redes%20Introduccion/Imagenes/Imagen13.png))
 
 > **Note**: en caso de no saber utilizar el comando```?``` Todas las veces que sean necesarias
 
