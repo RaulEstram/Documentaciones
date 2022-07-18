@@ -47,7 +47,7 @@ Una vez hecho los cambios, ejecutamos nuestro proyecto en caso de no estar en ej
 
 Como este es un codigo muy burdo y mal hecho se generan varios errores pero si miramos nuestra terminal encontraremos algo similar a lo siguiente:
 
-![Imagen2]()
+![Imagen2](https://github.com/RaulEstram/Documentaciones/blob/main/Python/Django/Imagenes/Imagen2.png)
 
 Lo que podemos observar es que a pesar de los errores, se ejecuto nuestra funcion y se puede apreciar lo que imprime nuestra funcion, esto nos ayuda a darnos una idea de como funciona django
 
