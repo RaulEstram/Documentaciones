@@ -32,3 +32,6 @@ Esta es una introduccion de Redes, El objetivo es poder mostrar toda la informac
     * [4.5 Practica: Conectando por Telnet y SSH](https://github.com/RaulEstram/Documentaciones/blob/main/Redes/Redes%20Introduccion/Seccion%204%20Gestion%20de%20equipos%20Cisco%20packetTracer/5%20Practica%20conectando%20por%20Telnet%20y%20SSH.md)
     * [4.6 Tipos de memoria, Secuencia de Arranque y Ficheros de Configuracion](https://github.com/RaulEstram/Documentaciones/blob/main/Redes/Redes%20Introduccion/Seccion%204%20Gestion%20de%20equipos%20Cisco%20packetTracer/6%20Tipos%20de%20memoria%20secuencia%20de%20arranque%20y%20ficheros%20de%20configuracion.md)
     * [4.7 Ejercicio Practico: Tipos de memoria, Secuencia de Arranque y Ficheros de Configuracion](https://github.com/RaulEstram/Documentaciones/blob/main/Redes/Redes%20Introduccion/Seccion%204%20Gestion%20de%20equipos%20Cisco%20packetTracer/7%20Ejercicio%20Practico%20tipos%20de%20memoria%20secuencia%20de%20arranque%20y%20ficheros%20de%20configuracion.md)
+* [5 Seccion 5: Profundizando en las redes IP, Cableado, ARP, FrameRewrite, Wireshark, etc]()
+    * [5.1 Cableado UTP Recto y Cruzado]()
+    * [5.2 Ejercicio Practico: Switching, cableado, configuracion basica de equipos]()
