@@ -2,10 +2,6 @@
 
 ## Pasos
 
-> **Note**
-> el proyecto que se crea usando estos pasos esta en la carpeta /Programas/Seccion 1/creacionProyectoWeb
-
-
 ### 1° Paso - Creacion y activacion de un entorno virtual
 
 la primero que tenemos que hacer es crear y activar un entorno virtual.
