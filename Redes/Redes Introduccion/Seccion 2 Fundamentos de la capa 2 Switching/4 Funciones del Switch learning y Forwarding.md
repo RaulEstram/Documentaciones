@@ -27,7 +27,7 @@ El **Switch entiene de direcciones MAC** que son direcciones de capa 2 por lo qu
 El Forwarding es el reenvio de tramas de un puerto a otro puerto.
 
 Lo que hace el Switch es lo siguiente:
-* 1.- recibe una tama por un puerto, esta trama en su cabecera en la parte destino tendra la direccion MAC destino que es la direccion del equipo que tendra que recibir la informacion.
+* 1.- recibe una trama por un puerto, esta trama en su cabecera en la parte destino tendra la direccion MAC destino que es la direccion del equipo que tendra que recibir la informacion.
 * 2.- El Swich toma la informacion de la direccion MAC destino y la busca en su tabla de Direcciones MAC y reenvia la trama por el puerto al que esta asociada la direccin MAC destino.
 
 Pero ¿y si la direccion MAC destino no se encuentra en la tabla de direcciones MAC?
