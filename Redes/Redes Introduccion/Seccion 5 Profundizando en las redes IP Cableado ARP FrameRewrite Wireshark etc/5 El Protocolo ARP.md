@@ -35,42 +35,46 @@ Lo unico que hacen estas 2 fases es enviar Tramas
 
 La informacion propia del Protocolo ARP estara en el capo Datos de la una Trama Ethernet y va a tener la siguiente estructura:
 
-<table align="center" border="1">
+
+---
+
+<table align="center">
 	<tbody>
 		<tr>
-			<td colspan="34">Estructura del Protocolo ARP</td>
+			<td colspan="1" style="text-align:center">Cell 1x1</td>
 		</tr>
 		<tr>
-			<td colspan="2">Hardware Type</td>
-			<td colspan="2">Protocol Type</td>
+			<td colspan="2">Cell 1x2</td>
+			<td colspan="2">Cell 2x2</td>
 		</tr>
 		<tr>
-			<td colspan="1">Hardware Address length</td>
-			<td colspan="1">Protocol Address length</td>
-			<td colspan="2">Operation Code</td>
+			<td>Cell 1x3</td>
+			<td>Cell 2x3</td>
+			<td>Cell 3x3</td>
+			<td>Cell 4x3</td>
 		</tr>
 		<tr>
-			<td colspan="4">Sender Hardware Address</td>
+			<td>Cell 1x4</td>
+			<td>Cell 2x4</td>
+			<td>Cell 3x4</td>
+			<td>Cell 4x4</td>
 		</tr>
 		<tr>
-			<td colspan="4"> Sender Protocol Address</td>
+			<td>Cell 1x5</td>
+			<td>Cell 2x5</td>
+			<td>Cell 3x5</td>
+			<td>Cell 4x5</td>
 		</tr>
 		<tr>
-			<td colspan="4">Target Hardware Address</td>
-		</tr>
-        <tr>
-			<td colspan="4">Target Protocol Address</td>
-		</tr>
-        <tr>
-			<td colspan="1">a</td>
-            <td colspan="1">a</td>
-            <td colspan="1">a</td>
-            <td colspan="1">a</td>
+			<td>Cell 1x6</td>
+			<td>Cell 2x6</td>
+			<td>Cell 3x6</td>
+			<td>Cell 4x6</td>
 		</tr>
 	</tbody>
 </table>
 
-
+---
 
 <table class="tftable" border="1">
 <tr>
@@ -96,9 +100,6 @@ La informacion propia del Protocolo ARP estara en el capo Datos de la una Trama 
 <td colspan="4">TARGET HARDWARE ADDRESS</td>
 </tr>
 <tr>
-<td colspan="1">TARGET PROTOCOLO ADDRESS</td>
-<td colspan="1">TARGET PROTOCOLO ADDRESS</td>
-<td colspan="1">TARGET PROTOCOLO ADDRESS</td>
-<td colspan="1">TARGET PROTOCOLO ADDRESS</td>
+<td colspan="4">TARGET PROTOCOLO ADDRESS</td>
 </tr>
 </table>
