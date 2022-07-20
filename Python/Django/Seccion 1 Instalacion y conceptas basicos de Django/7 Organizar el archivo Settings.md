@@ -19,9 +19,9 @@ Lo primero que tendremos que hacer es crear una nueva carpeta al mismo nivel del
 
 Dentro de esta carpeta agregaremos los archivos:
 
-* base.py = aqui tendremos las configuraciones basicas o que las otras 2 configuraciones tendran en comun.
-* local.py = aqui tendremos las configuraciones para cuando estemos trabajando en un entorno local
-* prod.py = aqui tendremos las configuraciones para resolvecuando nuestro proyecto este en alojado en un servidor.
+* **base.py** = aqui tendremos las configuraciones basicas o que las otras 2 configuraciones tendran en comun.
+* **local.py** = aqui tendremos las configuraciones para cuando estemos trabajando en un entorno local
+* **prod.py** = aqui tendremos las configuraciones para resolvecuando nuestro proyecto este en alojado en un servidor.
 
 
 Tambien para decirle a django que dentro de una carpeta hay codigo que tiene que leer tenemos que crear dentro de esta carpeta un archivo llamado **"__init__.py"**.
