@@ -69,7 +69,7 @@ Dentro de la informacion podremos ver la informacion de la siguiente forma:
 
 Dependiendo del trafico mostrara mas informacion o menos.
 
-### Aplicar Filtro y Visualizacion de Protocolo ARP
+## Aplicar Filtro y Visualizacion de Protocolo ARP
 
 Tambien en la parte de "aplique un filtro de visualizacion" podemos poner algun filtro de visualizacion para filtrar las capturas de trafico, en este caso simplemente agregaremos ```arp``` y daremos enter.
 
@@ -79,7 +79,7 @@ Una vez hecho la anterior podremos ver el trafico capturado de protocolo ARP.
 
 En este caso podemos ver estas 2 capturas ARP:
 
-* Peticion ARP
+### Peticion ARP
 
 ![Imagen34](https://github.com/RaulEstram/Documentaciones/blob/main/Redes/Redes%20Introduccion/Imagenes/Imagen34.png)
 
@@ -101,7 +101,7 @@ Por otro lado en Address Resolution Protocol podemos ver la informacion del prot
 * Target Protocol Address = IP destino
 
 
-* Respuesta ARP
+### Respuesta ARP
 
 ![Imagen35](https://github.com/RaulEstram/Documentaciones/blob/main/Redes/Redes%20Introduccion/Imagenes/Imagen35.png)
 
