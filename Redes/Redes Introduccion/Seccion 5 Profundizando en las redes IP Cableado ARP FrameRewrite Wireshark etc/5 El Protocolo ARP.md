@@ -72,3 +72,21 @@ La informacion propia del Protocolo ARP estara en el capo Datos de la una Trama 
 * Target Hardware Address y Target Protocol Address = Target -> Objetivo; ontendran la direccion MAC en Hardware y la direccion IP en Protocol del equipo destino.
 
 > **Note** cuando se envie una peticion ARP el Targen Hardware Address como no la sabemos tendra el valor de 0000.0000.0000
+
+## Tabla de direcciones ARP
+
+La Tabla ARP, como el protocolo ARP, sirve para relacionar Direcciones IPs con Direcciones MAC. Ya que un equipo, cuando quiere enviar algo a otro equipo de la misma red, necesita su dirección MAC, será necesario tener un mecanismo que le permita descubrir y aprender esa dirección MAC. ARP permite eso, el descubrimiento y aprendizaje de la dirección MAC asociada a una IP.
+
+### **¿Qué equipo debe realizar esas funciones relacionadas con la tabla ARP?**
+
+Cualquier equipo que quiera comunicarse a nivel 3 con otro equipo, necesitará utilizar el protocolo ARP. Así que lo van a utilizar: Routers, PCs, Laptops, Impresoras, Firewalls,...
+
+Los routers por ejemplo utilizan la tabla ARP para descubrir la MAC de los equipos a los que les quieren reenviar paquetes. Los routers NO utilizan tabla de direcciones MAC.
+
+
+La tabla de direcciones ARP de un Router se puede vizualizar usando el comando:
+
+
+```bash
+show arp
+```

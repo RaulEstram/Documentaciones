@@ -8,6 +8,8 @@ Lo que tiene esta practica es que ya tiene configuradas las IPs y MACs de los eq
 
 Lo unico que vamos a configurar es el Router el cual por defecto tiene las interfaces DOWN o dehabilitadas y lo que tenemos que haces es habilitarlas y configurarlas.
 
+> **Note** Podemos encontrar esta practica en la carpeta "Programas con el nombre de "5 7 Practica Routing Inicio.pkt"
+
 ## Configuracion de Router
 
 ## 1° habilitar las interfaces
@@ -41,7 +43,7 @@ Por lo tanto nuestras Red nos quedara de la siguiente manera donde veremos que l
 
 ![Imagen39](https://github.com/RaulEstram/Documentaciones/blob/main/Redes/Redes%20Introduccion/Imagenes/Imagen39.png)
 
-> **Note** Podemos ver un pequeño resumen de la configuracion de las interfaces usando **```show ip interface brief```** o uno mas largo con **```show interfaces```**
+> **Note** Podemos ver un pequeño resumen de la configuracion de las interfaces usando **```show ip interface brief```** o uno mas largo con **```show interfaces```** desde el modo privilegiado del Router
 
 ---
 
@@ -76,4 +78,9 @@ El Default Gateway de los equipos finales para que puedan enviar cosas fuera de 
 El Gateway se configura desde Config>Global>Settings>Default G
 ateway de cada equipo final
 
+## 4° ping
 
+Una vez hecho los 3 pasos anteriores podemos enviar pings de un equipo final a otro equipo final sin ningun problema y de esta manera comprobar la conectividad de nuestras redes.
+
+
+> **Note** Podemos encontrar esta practica finalizada en la carpeta "Programas con el nombre de "5 7 Practica Routing Final.pkt"
