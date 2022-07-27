@@ -55,7 +55,7 @@ En este punto solamente hemos levantado o habilitado las interfaces del Router, 
 
 Los comandos para realizar esta configuracion serian:
 
-```bash
+```terminal
 Router>enable
 Router#configure terminal 
 Router(config)#interface gigabitEthernet 0/1
