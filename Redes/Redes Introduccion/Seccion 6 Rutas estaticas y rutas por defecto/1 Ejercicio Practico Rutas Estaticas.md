@@ -6,6 +6,11 @@ Para este ejercicio vamos a tener el siguiente ejemplo:
 
 Para aprender que son las Rutas Estaticas tenemos que empezar a realizar algunas cosas que ya hemos visto.
 
+> **Note** Este Escenario lo encontraremos en la carpeta "Programas" con el nombre "6 1 PracticaRouting Inicio.pkt"
+
+> **Note** Este ejercicio se encuentra finalizado en la carpeta "Programas" con el nombre "6 1 PracticaRouting Final.pkt"
+
+
 ## Configurar las interfaces de los Routers
 
 Para configurar la interfaz del RouterOficina usaremos los comandos:
@@ -29,6 +34,8 @@ RouterTaller(config-if)#no shutdown
 ```
 
 Una vez hecho esto podemos ver como las interfaces ya estan habilitadas y tambien que ya estan configuradas si usamos el comando ```show ip interfaces brief```, a su vez podemos ver las tablas de Rutas de los Routers con el comando ```show ip route```.
+
+![Imagen44](https://github.com/RaulEstram/Documentaciones/blob/main/Redes/Redes%20Introduccion/Imagenes/Imagen44.png)
 
 Si miramos las tablas de Rutas, veremos que tanto el RouterOficiana como el RouterTaller no saben como llegar a la Red del otro y es por eso que todabia no hay comunicacion, y es en este momento en donde entran las **Rutas Estaticas y las Rutas Dinamicas**
 
@@ -90,5 +97,11 @@ Tambien podemos comprobar su tabla de rutas para comprobar que se realizo de la 
 
 SI probamos la conectividad entre las redes nos daremos cuenta que no sera posible por la comunicacion ya que todavia no estan configurados los default gateways de los equipos finales, y como anteriormente los vimos, es muy facil, simplemente apregamos el ip de la interfaz del Router en los equipos finales como su default gateway.
 
+Una vez que agregamos los default gateways y probamos un ping veremos lo siguiente
+
+![Imagen45](https://github.com/RaulEstram/Documentaciones/blob/main/Redes/Redes%20Introduccion/Imagenes/Imagen45.png)
+
+Al principio se pierden 2 paquetes gracias a que esta funcionando el protocolo ARP.
 
 > **Warning** En caso de que no aparescan las Rutas estaticas en la tabla de rutas podemos ver si se agregaron usando el comando ```show running-config``` en la seccion de **ip classless**
+

@@ -19,3 +19,5 @@
 * ```show ip interface brief``` = Sirve para ver la configuracion Resumida de las interfaces de un Router 
 
 * ```show ip route```Sirve para ver las tablas de Rutas de un Router o un equipo final de capa 3.
+
+* ```ip route {direccion ip destino} {mascara de red del ip destino} {ip del siguiente salto}``` = sirver para agregar una ruta estatica a nuestro Router (6.1)
