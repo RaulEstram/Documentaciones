@@ -41,4 +41,6 @@ Esta es una introduccion de Redes, El objetivo es poder mostrar toda la informac
     * [5.6 Wireshark](https://github.com/RaulEstram/Documentaciones/blob/main/Redes/Redes%20Introduccion/Seccion%205%20Profundizando%20en%20las%20redes%20IP%20Cableado%20ARP%20FrameRewrite%20Wireshark%20etc/6%20wireshark.md)
     * [5.7 Practica: Routing con PacketTracer](https://github.com/RaulEstram/Documentaciones/blob/main/Redes/Redes%20Introduccion/Seccion%205%20Profundizando%20en%20las%20redes%20IP%20Cableado%20ARP%20FrameRewrite%20Wireshark%20etc/7%20Practica%20Routing%20con%20PacketTracer.md)
     * **[5.8 Frame Rewrite](https://github.com/RaulEstram/Documentaciones/blob/main/Redes/Redes%20Introduccion/Seccion%205%20Profundizando%20en%20las%20redes%20IP%20Cableado%20ARP%20FrameRewrite%20Wireshark%20etc/8%20Frame%20Rewrite.md)**
-* [6 Seccion 6: Rutas estaticas y rutas por defecto]()
+* [6 Seccion 6: Rutas estaticas y rutas por defecto](https://github.com/RaulEstram/Documentaciones/tree/main/Redes/Redes%20Introduccion/Seccion%206%20Rutas%20estaticas%20y%20rutas%20por%20defecto)
+    * [6.1 Ejercicio Practico: Rutas Estaticas](https://github.com/RaulEstram/Documentaciones/blob/main/Redes/Redes%20Introduccion/Seccion%206%20Rutas%20estaticas%20y%20rutas%20por%20defecto/1%20Ejercicio%20Practico%20Rutas%20Estaticas.md)
+    * [6.2 Ejercicio Practico: Rutas por Defecto](https://github.com/RaulEstram/Documentaciones/blob/main/Redes/Redes%20Introduccion/Seccion%206%20Rutas%20estaticas%20y%20rutas%20por%20defecto/2%20Ejercicio%20Practico%20Rutas%20por%20defecto.md)
