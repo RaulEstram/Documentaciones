@@ -10,7 +10,7 @@ En la capa 4 hay 2 protocolos muy importante que son:
 Estos protocolos **proporcionan servicios a los protocolos de la capa de aplicacion** que es la capa superior.
 
 ## Funciones del protocolo TCP y UDP
-
+ 
 El protocolo TCP y el UDP sus propias funcionalidades las cuales son:
 
 ```mermaid
@@ -56,20 +56,12 @@ Para realizar la Tarea de la Multiplexacion lo que se hace es que **Utilizamos u
 
 Por lo tanto el servidor mirara el pruerto y con esa informacion sabra a que aplicacion tendra que mandar esa informacion.
 
+
 > **Note** En la **capa 4** a la informacion que se utiliza se le llama **Segmento** en caso del **protocolo TCP** y **Datagram** en el caso del **protocolo UDP**
 
 ## Cabeceras el Protoclo TCP y UDP
 
 Las cabeceras de estos 2 protocolos son las siguientes:
-
-<style type="text/css">
-.tftable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #a9a9a9;border-collapse: collapse;}
-.tftable th {font-size:12px;background-color:#b8b8b8;border-width: 1px;padding: 8px;border-style: solid;border-color: #a9a9a9;text-align:center;}
-.tftable tr {background-color:#cdcdcd;}
-.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #a9a9a9;text-align:center;}
-.tftable tr:hover {background-color:#ffffff;}
-.tftable .hidden {display: none;}
-</style>
 
 
 <table class="tftable" border="1">
@@ -96,13 +88,24 @@ Las cabeceras de estos 2 protocolos son las siguientes:
     <td colspan="3">Checksum</td>
     <td colspan="3">Urgente</td>
 </tr>
+</table>
+
+<table class="tftable" border="1">
 <tr>
-    <td class="hidden">row adn alk</td>
-    <td class="hidden">row adn alk</td>
-    <td class="hidden">row adn alk</td>
-    <td class="hidden">row adn alk</td>
-    <td class="hidden">row adn alk</td>
-    <td class="hidden">row adn alk</td>
+    <th colspan="6">Cabecera UDP</th>
+</tr>
+<tr>
+    <td colspan="3">Puerto Origen</td>
+    <td colspan="3">Puerto Destino</td>
+</tr>
+<tr>
+    <td colspan="3">Longitud</td>
+    <td colspan="3">Checksum</td>
 </tr>
 </table>
 
+## Socket
+
+Un socket es la **asociacion** entre una **Direccion IP, Un protocolo (TCP o UDPs) y un Puerto**
+
+ 
