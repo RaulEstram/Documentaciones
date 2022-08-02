@@ -47,4 +47,4 @@ Esta es una introduccion de Redes, El objetivo es poder mostrar toda la informac
 * [7 Seccion 7: Fundamentos de la capa 4, TCP y UDP, Multiplexaccion, 3-way-handshake, FIN, etc]()
     * [7.1 Funciones de los protocolos TCP y UDP - Multiplexacion]()
     * [7.2 TCP: Establecimiento de la conexción 3-way-handshake]()
-* [8 Seccion 8: Virtual LANs/VLANs - configuracion de puertos en modo Acceso y Trunk]()
+* [8 Seccion 8: Virtual LANs/VLANs |- configuracion de puertos en modo Acceso y Trunk]()
