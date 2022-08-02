@@ -7,7 +7,7 @@ Una comunicacion TCP la podemos dividir en 3 etapas:
 * Envio de datos
 * finalizado o cierre
 
-## Establecimiento 
+## Establecimiento y finalizacion
 
 El establecimiento de una comunicacion TCP tambien se le conoce como 3-way-handshake el cual:
 
@@ -16,3 +16,5 @@ El establecimiento de una comunicacion TCP tambien se le conoce como 3-way-hands
 * crea la conexion entre SOCKETS - Apertura de puertos
 * Usa Num SEQ y Num ACK
 * Usa FLAGS de control, tambien llamados BITS DE CONTROL / FLAG BITS
+
+> **Note** Es mejor ver la seccion 8 del curso ya que es demasiado.
