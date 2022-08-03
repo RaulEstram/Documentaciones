@@ -168,3 +168,49 @@ self.Button.pack(expand=True, fill=tk.BOTH)
 ```
 
 ## Grid
+
+Consiste en dividir conceptualmente la ventan principal en filas (rows) y columnas (columns), formando celdas en donde se ubican los elementos.
+
+ejemplo de codigo
+
+```python
+self.Button = ttk.Button(self, text="soy un boton")
+self.Button.grid(row=0, column=0)
+```
+
+### columnspan, rowspan
+
+utilizaremos columnspan, rowspan cuando necesitemos que un widget ocupe mas espacio ya que indican cuantas columnas o filas debe ocupar el control (por defecto es 1)
+
+```python
+self.Button = ttk.Button(self, text="soy un boton")
+self.Button.grid(row=0, column=0, columnspan=2)
+```
+
+### rowconfigure y columnsconfigure
+
+con rowconfigure y columnsconfigure el parametro **weight=1** indicamos que la fila o columna se expanden o contraen si la ventan cambia su tamaño.
+
+```python
+self.Button = ttk.Button(self, text="soy un boton")
+self.Button.grid(row=0, column=0, columnspan=2)
+self.columnconfigure(0, weight=1) # expandir horizontalmente la columna 0
+self.rowconfigure(0, weight=1) # expandir verticalmente la fila 0
+```
+
+> **Note** Si utilizamos un numero mayor a 1, estamos indicando cuantas veces mas grande va a ser que un elemento con el valor 1, por ejemplo con 5 sera 5 veces su tamaño. Esto si utilizamos el Sticky.
+
+
+### Sticky
+
+Sticky nos sirve para que un control se posicione arriba, abajo, a la derecha o izquierda de la celda que lo contiene, se usa sticky con las opciones: "n", "s", "e", "w".
+
+Tambien permite que el widget se expanda de forma horizontal ("ew"), vertical ("ns") o en ambas direcciones ("nsew").
+
+```python
+self.Button = ttk.Button(self, text="soy un boton")
+self.Button.grid(row=0, column=0, sticky = "nsew")
+```
+
+
+> **Note** tambien podemos utilizar sticky si hemos utilizado padx y sus derivados.
