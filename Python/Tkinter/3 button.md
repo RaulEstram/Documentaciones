@@ -4,7 +4,16 @@ los botones los creamos utilizando el objeto **Button**
 
 El constructor basico del Button es el siguiente:
 
-* Button(en donde se encuentra, text="texto del Button", command=funcionEjecuta)
+```python
+Button(en donde se encuentra, text="texto del Button", command=funcionEjecuta)
+```
+
+Si queremos que se ejecute una funcion con argumentos dentro, tenemos que hacer algo para que no se ejecute directamente, tenemos que usar una funcion **lambda** de la siguiente manera:
+
+```python
+Button(en donde se encuentra, text="Decir algo", command=lambda:decirAlgo("algo"))
+```
+
 
 > **Note** la funcion que ejecuta no tiene que tener parentesis.
 
