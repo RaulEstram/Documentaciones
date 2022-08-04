@@ -33,3 +33,19 @@ if __name__ == "__main__":
 
 
 ```
+
+
+## Opciones del Entry
+
+| Opcion | Descripcion |
+| :-: | :-: |
+| Text | texto que se meestra en el Entry |
+| Anchor | Controla la posicion del texto si hay espacio suficiente para el (centro por defecto) |
+| bg | Color de fondo |
+| bd | Grosor del borde (2px por defecto) |
+| Font | Tipo de fuente a mostrar, tiene que ser una tupla con el formato: ("tipografia", tamaño) |
+| Fg | Color de la fuente |
+| Width | Ancho del Entry en caracteres (no en pixeles) |
+| Height | Altura del Entry en caracteres (no en pixeles) |
+| Justify | Justificacion del Texto del Entry |
+| show | Para mostrar el tipo de texto que se mostrara en el entry, por ejemplo show="*" para los entry de contraseña|

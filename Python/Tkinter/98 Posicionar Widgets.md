@@ -116,11 +116,16 @@ En lugar de especificar las cordenadas de un elemento, simplemente le decimos qu
 
 Si no indicamos ningun argumento, por defecto Tk posicionara los elemento uno arriba de otro
 
-### SIDE
+### SIDE y ANCHOR
 
 la propiedad que controla la posicion reletica de los elementos es **side**, que puede equivaler a tk.TOP (por defecto), tk.BOTTOM, tk.LEFT O tk.RIGHT. De este modo, si indicamos que la caja de texto debe ir ubiada a la izquierda, los otros dos controles se seguiran manteniendo uno arriba del otro.
 
+por otro lado anchor nos sirve para anchar algun elemento con los valores: "n", "s", "e", "w".
+
+por lo que con un side="left" y anchor = "n", nuestro widget se quedara arriba a la izquierda
+
 por lo que la sintaxis quedaria similar a la siguiente:
+
 
 ```python
 self.entry = ttk.Entry(self)

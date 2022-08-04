@@ -140,3 +140,31 @@ textvariable
 underline
 width
 wraplength'])
+
+
+## Entry
+
+* ```bg o background```
+* ```fg o foreground```
+* ```cursor```
+* ``````
+* ``````
+* ``````
+* ``````
+* ``````
+* ``````
+
+
+## Combobox
+
+* ```bg o background```
+* ```fg o foreground```
+* ```cursor```
+* ``````
+* ``````
+* ``````
+* ``````
+* ``````
+* ``````
+
+

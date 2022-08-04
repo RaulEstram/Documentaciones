@@ -3,6 +3,7 @@
 Una pequeña documentacion de las cosas mas importantes de Tkinter.
 
 Para tener mas documentacion a la mano se encuentran las siguientes paginas:
+* [Documentacion algunos widgets tematicos](https://docs.python.org/es/3/library/tkinter.ttk.html)
 * [Interfaces gráficas de usuario con Tk - Documentacion Oficial](https://docs.python.org/es/3/library/tk.html)
 * [tkinter adamsmith](https://www.adamsmith.haus/python/docs/tkinter)
 * [tkinter javaTpoint](https://www.javatpoint.com/python-tkinter)
