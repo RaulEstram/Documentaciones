@@ -78,3 +78,29 @@ tenemos operadores como:
 
 ## Operador ternario
 
+Este operador es una simplificacion para el if - else en una sola linea cuando son pocas lineas, la sintaxis es la siguiente:
+
+```dart
+condicion ? doSomething : doSomething
+```
+
+tambien podemos tener operadores ternarios con mas de estos, por ejemplo:
+
+```dart
+(foo==1)?something1():(foo==2)? something2():(foo==3)? something3(): something4();
+```
+
+Que seria lo mismo que:
+
+```dart
+if(foo ==1){
+    something1();
+}
+elseif(foo ==2){
+    something2();
+}
+elseif(foo ==3){
+    something3();
+}
+else something4();
+```
