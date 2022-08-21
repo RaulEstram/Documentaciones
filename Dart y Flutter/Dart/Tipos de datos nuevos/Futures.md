@@ -60,3 +60,7 @@ fin programa
 hola
 hola
 ```
+
+> **Note** Future.delayed(time, function)  Es un método de la clase Future que permite ejecutar una función después de 'x' cantidad de tiempo.
+
+> **Note** Para definir el tiempo usamos la función Duration(), pueden ser horas, segundos, minutos, miliseguntos etc. [Mas información aqui](https://api.dart.dev/stable/2.17.6/dart-core/Duration-class.html)

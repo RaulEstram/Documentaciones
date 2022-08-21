@@ -51,7 +51,14 @@ o bien interfaces separadas.
     * [3.4 Funciones lambda o Flecha]()
     * [3.5 Callbacks]()
 * [4.0 Tipos de datos nuevos]()
-    * [4.1 Colas o Queues]()
+    * 4.1 Colas o Queues
     * [4.2 Enumeraciones]()
     * [4.3 Futures]()
+        * [4.3.1 catchError]()
     * [4.4 Async y Await]()
+    * 4.6 Streams
+        * 3.6.1 onError, onDone y cancelOnError
+        * 4.6.2 Tipado y Broadcast
+* [5.0 POO]()
+    * [5.1 Creacion de Clases, propiedades, getters & setters.]()
+    * [5.2 Constructores.]()
