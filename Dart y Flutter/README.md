@@ -62,3 +62,5 @@ o bien interfaces separadas.
 * [5.0 POO]()
     * [5.1 Creacion de Clases, propiedades, getters & setters.]()
     * [5.2 Constructores.]()
+    * [5.3 Propiedades y metodos estático]()
+    * [5.4 Singleton]()
