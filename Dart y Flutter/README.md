@@ -30,10 +30,10 @@ o bien interfaces separadas.
 ## Documentacion Dart
 
 * [1.0 Introduccion a Dart](https://github.com/RaulEstram/Documentaciones/tree/main/Dart%20y%20Flutter/Dart/1%20Introduccion%20Dart)
-    * [1.1 Hola mundo](https://github.com/RaulEstram/Documentaciones/tree/main/Dart%20y%20Flutter/Dart/Hola%20Mundo.md)
-    * [1.2 Tipos de Datos](https://github.com/RaulEstram/Documentaciones/tree/main/Dart%20y%20Flutter/Dart/Tipos%20de%20Datos.md)
-        * [1.2.1 final, const y late](https://github.com/RaulEstram/Documentaciones/tree/main/Dart%20y%20Flutter/Dart/Final%20y%20Const.md)
-    * [1.3 Operadores](https://github.com/RaulEstram/Documentaciones/tree/main/Dart%20y%20Flutter/Dart/Operadores.md)
+    * [1.1 Hola mundo](https://github.com/RaulEstram/Documentaciones/blob/main/Dart%20y%20Flutter/Dart/1%20Introduccion%20Dart/Hola%20Mundo.md)
+    * [1.2 Tipos de Datos](https://github.com/RaulEstram/Documentaciones/blob/main/Dart%20y%20Flutter/Dart/1%20Introduccion%20Dart/Tipos%20de%20Datos.md)
+        * [1.2.1 final, const y late](https://github.com/RaulEstram/Documentaciones/blob/main/Dart%20y%20Flutter/Dart/1%20Introduccion%20Dart/Final%20y%20Const.md)
+    * [1.3 Operadores](https://github.com/RaulEstram/Documentaciones/blob/main/Dart%20y%20Flutter/Dart/1%20Introduccion%20Dart/Operadores.md)
 * [2.0 Estructuras de control de flujo](https://github.com/RaulEstram/Documentaciones/tree/main/Dart%20y%20Flutter/Dart/2%20Estructuras%20de%20control%20de%20flujo)
     * 2.1 Entradas de Informacion
     * [2.2 if - else ](https://github.com/RaulEstram/Documentaciones/blob/main/Dart%20y%20Flutter/Dart/Estructuras%20de%20control%20de%20flujo/if%20y%20else.md)
