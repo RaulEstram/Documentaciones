@@ -64,4 +64,4 @@ o bien interfaces separadas.
     * [5.2 Constructores.](https://github.com/RaulEstram/Documentaciones/blob/main/Dart%20y%20Flutter/Dart/5%20POO/Constructores.md)
     * [5.3 Propiedades y metodos estático](https://github.com/RaulEstram/Documentaciones/blob/main/Dart%20y%20Flutter/Dart/5%20POO/propiedades%20y%20metodos%20estaticos.md)
     * 5.4 Singleton
-    * [5.5 Herencia de clases, y palabra reservada super]() 
+    * [5.5 Herencia de clases, y palabra reservada super](https://github.com/RaulEstram/Documentaciones/blob/main/Dart%20y%20Flutter/Dart/5%20POO/Herencia.md) 
