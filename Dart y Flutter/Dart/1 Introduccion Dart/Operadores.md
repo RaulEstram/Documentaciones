@@ -104,3 +104,9 @@ elseif(foo ==3){
 }
 else something4();
 ```
+
+## Operadores un poco mas especiales
+
+* !, este operador si lo agregamos al final, hara referencia que podemos guardar un null a fuerzas
+
+* ... nos sirve para pasar un volor por valor y no por referencia
