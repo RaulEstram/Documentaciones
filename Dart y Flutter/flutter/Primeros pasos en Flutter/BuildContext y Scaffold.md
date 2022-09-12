@@ -53,6 +53,7 @@ class MyApp extends StatelessWidget {
 > **Note** Para más información del widget **Scaffold** click [aquí](https://api.flutter.dev/flutter/material/Scaffold-class.html).
 
 
+
 ## BuildContext
 
 Por otro lado el **BuildContext** es un identificador de la ubicación de un widget en el árbol de widgets.

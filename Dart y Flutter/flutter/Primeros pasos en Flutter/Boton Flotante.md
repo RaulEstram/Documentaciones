@@ -71,4 +71,4 @@ class HomeScreen extends StatelessWidget {
 }
 ```
 
-
+> **Note** mas informacion de los botones flotantes [aquí en la seccion de propiedades](https://api.flutter.dev/flutter/material/Scaffold-class.html) o más informacion de Iconos [aquí](https://api.flutter.dev/flutter/widgets/Icon-class.html)
