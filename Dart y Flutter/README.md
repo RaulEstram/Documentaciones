@@ -89,3 +89,7 @@ o bien interfaces separadas.
     * [**3.5 Navegacion entre pantallas**]()
     * [**3.6 AppRoutes mejorar rutas**]()
     * [**3.7 Creacion de tema global para aplicaciones**]()
+    * [**3.8 Cards**]()
+    * [**3.9 Creacion y centralizacion de Widgets personalizados**]()
+    * [**3.10 Imagenes y ajustar tamaño**]()
+    * [**3.11 Argumentos para los Widgets**]()
