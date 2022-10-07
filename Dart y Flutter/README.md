@@ -93,3 +93,8 @@ o bien interfaces separadas.
     * [**3.9 Creacion y centralizacion de Widgets personalizados**]()
     * [**3.10 Imagenes y ajustar tamaño**]()
     * [**3.11 Argumentos para los Widgets**]()
+    * [**3.14 Alertas**]()
+    * [3.15 Avatar]()
+    * [3.16 Animated Container]()
+* [4.0 Cosas Utiles]()
+    * [**4.1 Padding y margin con SizedBox y Container**]
