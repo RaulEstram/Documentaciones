@@ -97,7 +97,9 @@ o bien interfaces separadas.
     * [3.15 Avatar]()
     * [3.16 Animated Container]()
     * [**3.16 SingleChildScrollView**]()
-    * [**3.17 TextFormFiels y su personalizacion**]
-    * [**3.18 Forms**]
+    * [**3.17 TextFormFiels y su personalizacion**]()
+    * [**3.18 Forms**]()
+    * [**3.19 DropdownButtonFormField o seleccion en cascada** ]()
+    * [**3.20 slider y checkbox and switches**]
 * [4.0 Cosas Utiles]()
     * [**4.1 Padding y margin con SizedBox y Container**]

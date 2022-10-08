@@ -186,3 +186,4 @@ class InputsScreen extends StatelessWidget {
 ```
 
 > **Note** en el codigo anterior podemos ver como en la propiedad **onPressed** de nuestro **ElevatedButton** valida si el form esta correcto y es aqui donde podemos obtener, manejar y hacer lo que queramos con la informacion de nuestro form para procesar esta misma como queramos.
+
