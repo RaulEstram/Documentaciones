@@ -103,3 +103,4 @@ o bien interfaces separadas.
     * [**3.20 slider y checkbox and switches**]
 * [4.0 Cosas Utiles]()
     * [**4.1 Padding y margin con SizedBox y Container**]
+    * [**4.2 Slivers**]
