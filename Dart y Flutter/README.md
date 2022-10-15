@@ -97,7 +97,7 @@ o bien interfaces separadas.
     * [3.15 Avatar](https://github.com/RaulEstram/Documentaciones/blob/main/Dart%20y%20Flutter/flutter/3%20Componentes%20de%20Flutter/avatar.md)
     * [3.16 Animated Container](https://github.com/RaulEstram/Documentaciones/blob/main/Dart%20y%20Flutter/flutter/3%20Componentes%20de%20Flutter/animatedContainer.md)
     * [**3.16 SingleChildScrollView**](https://github.com/RaulEstram/Documentaciones/blob/main/Dart%20y%20Flutter/flutter/3%20Componentes%20de%20Flutter/SingleChildScrollView.md)
-    * [**3.17 TextFormFiels y su personalizacion**](https://github.com/RaulEstram/Documentaciones/blob/main/Dart%20y%20Flutter/flutter/3%20Componentes%20de%20Flutter/TextFormFiels%20y%20su%20personalizacion.md)
+    * [**3.17 TextFormFiels y su personalizacion**](https://github.com/RaulEstram/Documentaciones/blob/main/Dart%20y%20Flutterflutter/3%20Componentes%20de%20Flutter/TextFormFiels%20y%20su%20personalizacion.md)
     * [**3.18 Forms**](https://github.com/RaulEstram/Documentaciones/blob/main/Dart%20y%20Flutter/flutter/3%20Componentes%20de%20Flutter/forms.md)
     * [**3.19 DropdownButtonFormField o seleccion en cascada** ](https://github.com/RaulEstram/Documentaciones/blob/main/Dart%20y%20Flutter/flutter/3%20Componentes%20de%20Flutter/DropdownButtonFormField.md)
     * [**3.20 slider y checkbox and switches**](https://github.com/RaulEstram/Documentaciones/blob/main/Dart%20y%20Flutter/flutter/3%20Componentes%20de%20Flutter/slider.md)
@@ -105,4 +105,12 @@ o bien interfaces separadas.
     * [**4.1 Padding y margin con SizedBox y Container**](https://github.com/RaulEstram/Documentaciones/blob/main/Dart%20y%20Flutter/flutter/4%20Cosas%20Utiles/Padding%20y%20SizedBox.md)
     * [**4.2 List infinito**](https://github.com/RaulEstram/Documentaciones/blob/main/Dart%20y%20Flutter/flutter/4%20Cosas%20Utiles/list_infinito.md)
     * [**4.3 Slivers**]()
-    * []
+    * [hero]
+    * [search]
+    * [**GestureDetector**]()
+    * [**tipos de layout**]()
+    * [**BottomNavigationBar]()
+    * [cositas diseño]
+* [**5.0 Consumo de APIs y uso de providers**]()
+    * [**5.1 Explicacion de Consumo de APIs de tipo GET y Con su respectivo uso de providers al iniciar la aplicacion**]()
+    * [**5.2 Explicacion de consumo de APIs de tipo GET despues del inicio de la aplicacion abriendo nuevas ventadas**]()
