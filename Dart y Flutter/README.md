@@ -109,7 +109,7 @@ o bien interfaces separadas.
     * [search]
     * [**GestureDetector**]()
     * [**tipos de layout**]()
-    * [**BottomNavigationBar]()
+    * [**BottomNavigationBar**]()
     * [cositas diseño]
 * [**5.0 Consumo de APIs y uso de providers**]()
     * [**5.1 Explicacion de Consumo de APIs de tipo GET y Con su respectivo uso de providers al iniciar la aplicacion**]()
