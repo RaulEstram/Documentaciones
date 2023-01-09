@@ -13,3 +13,25 @@ Polimorfismo: los objetos pueden tener múltiples formas, y pueden ser utilizado
 ## Clase
 
 las clases son un molde, o prototipo, que definen las variables y los métodos comunes a un cierto tipo de objetos.
+
+## Metodos
+
+los metodos son funciones en el scope de una clase
+
+## atributos
+
+los atributos en una clase siempre van en private o protected
+
+## Polimorfismo
+
+ejemplo de polimorfismo seria modificar un metodo de la clase padre en la clase hijo, seria la sobreescritura de metodos
+
+## encapsulamiento
+
+hacer las cosas privadas
+
+## Statico
+
+que no es necesario crear una instancia de clase para utilizarlo
+
+pueden ser tanto atributos como metodos
