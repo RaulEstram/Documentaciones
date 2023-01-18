@@ -35,3 +35,20 @@ hacer las cosas privadas
 que no es necesario crear una instancia de clase para utilizarlo
 
 pueden ser tanto atributos como metodos
+
+
+## Conceptos basicos
+
+Los conceptos básicos de la programación orientada a objetos (POO) son:
+
+Clases: Una clase es un modelo o plantilla para la creación de objetos. Una clase define las características y comportamientos de un objeto.
+
+Objetos: Un objeto es una instancia de una clase. Un objeto tiene propiedades (atributos) y comportamientos (métodos) que son definidos por su clase.
+
+Encapsulamiento: El encapsulamiento es el proceso de ocultar los detalles internos de un objeto y solo exponiendo una interfaz pública.
+
+Herencia: La herencia es el proceso por el cual una clase puede heredar las propiedades y comportamientos de otra clase.
+
+Polimorfismo: El polimorfismo es la capacidad de un objeto para ser tratado como una instancia de su clase o de cualquiera de sus clases padre.
+
+Abstracción: La abstracción es el proceso de enfocarse en los aspectos esenciales de un objeto y ignorando los detalles irrelevantes.
