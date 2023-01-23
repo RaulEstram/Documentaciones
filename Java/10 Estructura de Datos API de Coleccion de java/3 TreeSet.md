@@ -1,5 +1,7 @@
 # TreeSet 
 
+Los TreeSet en Java son una implementación de un conjunto de datos que utilizan un árbol rojo-negro para almacenar elementos. Los conjuntos no permiten elementos duplicados y garantizan un orden natural para los elementos. El orden puede ser modificado mediante un comparador personalizado. Los TreeSet son útiles para almacenar conjuntos de elementos y realizar operaciones de conjunto, como la unión, intersección y diferencia. También son útiles para realizar búsquedas y operaciones de rango en tiempo logarítmico. Además, ofrece métodos para obtener el primer, ultimo, siguiente y anterior elemento.
+
 veamos un codigo de ejemplo de como se utiliza, define y demas de un TreeSet:
 
 ```java

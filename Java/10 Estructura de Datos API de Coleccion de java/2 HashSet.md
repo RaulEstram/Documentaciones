@@ -1,5 +1,7 @@
 # HashSet 
 
+Los HashSet en Java son una implementación de un conjunto de datos que utilizan una estructura de datos llamada tabla hash para almacenar elementos. Los conjuntos no permiten elementos duplicados y no garantizan un orden específico para los elementos. Los HashSet son útiles para almacenar conjuntos de elementos y realizar operaciones de conjunto, como la unión, intersección y diferencia. También son útiles para verificar si un elemento se encuentra o no en el conjunto en tiempo constante mediante el uso de la función hash.
+
 veamos un codigo de ejemplo de como se utiliza, define y demas de un HashSet
 
 ```java
