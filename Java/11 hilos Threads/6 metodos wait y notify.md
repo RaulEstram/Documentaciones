@@ -2,6 +2,8 @@
 
 para ver el funcionamiento de estos metodos usaremos el siguiente ejemplo:
 
+> Nofity y wait solamente funcionan en recursos como métodos que sean synchronized
+
 * modelo panaderia
 
 ```java
