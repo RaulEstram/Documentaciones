@@ -12,7 +12,7 @@ los operadores de conjunto son utilizados para trabajar con conjuntos de datos e
 
 teniendo en cuenta la siguiente base de datos podremos realizar varias consultas:
 
-![Base de datos employees](Base de datos employees "Base de datos employees")(https://dev.mysql.com/doc/employee/en/images/employees-schema.png "Base de datos employees")
+![Base de datos employees](https://dev.mysql.com/doc/employee/en/images/employees-schema.png)
 
 * UNION
 
