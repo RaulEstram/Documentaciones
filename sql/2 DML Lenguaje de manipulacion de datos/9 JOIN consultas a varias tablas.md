@@ -9,9 +9,6 @@ Los JOIN en MySQL son una manera de combinar datos de varias tablas en una sola 
 * `CROSS JOIN`: Retorna el producto cartesiano de ambas tablas, es decir, todas las combinaciones posibles de filas de ambas tablas.
 * `SELF JOIN`: Retorna las filas de una tabla en relación consigo misma. Es decir, se utiliza la misma tabla dos veces con nombres diferentes en la consulta.
 
-[![tipos de join](tipos de join "tipos de join")](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/SQL_Joins.svg/2560px-SQL_Joins.svg.png "tipos de join")
-
-
-SELECT * FROM ( SELECT `dept_name`, ROUND(AVG(`S`.`salary`), 2) as 'promedio' FROM `departments` `D`  INNER JOIN `dept_emp` `DE` ON `D`.`dept_no` = `DE`.`dept_no` INNER JOIN `employees` `E` ON `E`.`emp_no` = `DE`.`emp_no` INNER JOIN `salaries` `S` ON `S`.`emp_no` = `E`.`emp_no` WHERE `S`.`to_date` > NOW() GROUP BY `D`.`dept_name` ) AS `SQ` WHERE `SQ`.`promedio` > 40000;
+![tipos de join](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/SQL_Joins.svg/2560px-SQL_Joins.svg.png)
 
 
