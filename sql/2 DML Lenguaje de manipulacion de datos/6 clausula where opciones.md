@@ -56,5 +56,18 @@ los operadores `IN`, `ANY`, `ALL` y `SOME` son utilizados para comparar una colu
 * `ANY`: Este operador compara una columna a los resultados de otra subconsulta. Ejemplo: `SELECT * FROM table1 WHERE col = ANY (SELECT col FROM table2)`
 * `ALL`: Este operador compara una columna a los resultados de otra subconsulta y devuelve verdadero si todos los valores en la subconsulta cumplen la condición. Ejemplo: `SELECT * FROM table1 WHERE col < ALL (SELECT col FROM table2)`
 * `SOME`: Este operador es similar al operador ANY y se utiliza de la misma manera, pero algunos sistemas gestores de bases de datos (DBMS) pueden soportar solo uno de los dos.
+* `EXISTS`: Devuelve TRUE si la subquery devuelve al menos un registro, de lo contrario devuelve FALSE.
 
 > **Note** Practicamente son utilizados para subqueries
+
+* exists
+
+```sql
+select dept_name from departments as d 
+where exists 
+(select * from dept_manager as m 
+where d.dept_no = m.dept_no 
+and m.emp_no between 110000 and 111000);
+```
+
+> **Note** Utilizar EXISTS tiene un rendimiento mejor que utilizar JOINs o IN cuando solo necesitas saber si existen registros relacionados, ya que la consulta utilizando EXISTS se detiene en cuanto encuentra el primer registro relacionado.
