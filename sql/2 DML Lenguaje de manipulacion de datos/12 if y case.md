@@ -9,3 +9,11 @@ SELECT col1, col2,
 FROM table_name;
 
 ```
+
+## IF
+
+```sql
+SELECT col1, col2, 
+       IF(col3 > 6, 'aprobado', 'reprobado') AS resultado
+FROM table_name;
+```
